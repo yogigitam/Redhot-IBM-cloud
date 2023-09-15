@@ -1,0 +1,46 @@
+<Html>
+    <head> 
+    <title>
+    Registration Page
+    </title>
+    </head>
+    <body>
+    <br>
+    <br>
+    <form>
+    
+    <label> NAME </label> 
+    <input type="text" name="NAME" size="15"/> <br> <br>
+    <label> MAIL</label> 
+    <input type="text" name="MAIL" size="15"/> <br> <br>
+    <label> PASSWD </label> 
+    <input type="text" name="PASSWD" size="15"/> <br> <br>
+    <label> UNAME</label> 
+    <input type="text" name="UNAME" size="15"/> <br> <br>
+    <label> ROLE </label> 
+    <input type="text" name="ROLE" size="15"/> <br> <br>
+
+    
+     
+    <input type="button" value="Submit"/>  
+    </form>  
+
+
+    <!-- Registration Section -->
+    <section class="Registration-section hero">
+        <h2>Registration</h2>
+        <form action="/register" method="post">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+  
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+  
+          <input type="submit" value="register" class="dropbtn" />
+        </form>
+        {{message2}}
+      </section>
+  
+      <script src="script.js"></script>
+    </body>  
+    </html>  
